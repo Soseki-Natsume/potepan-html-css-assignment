@@ -1,0 +1,62 @@
+header {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #ffffff;
+}
+
+.logo {
+    width: 30%;
+    align-items: center;
+    margin-top: 0 50px 0 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu {
+    color: black;
+}
+
+.free-counseling {
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 999px;
+}
+
+.fv {
+    position: relative;
+}
+
+.fv-overray {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.fv-text {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+
+}
+
+.sales-pitch {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.fv-free-counseling {
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 999px;
+}
+
+.main-image {
+    width: 100%;
+}
+
