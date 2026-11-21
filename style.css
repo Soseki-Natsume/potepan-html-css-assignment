@@ -1,4 +1,5 @@
 header {
+    align-items: center;
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -7,25 +8,45 @@ header {
 }
 
 .logo {
-    width: 30%;
-    align-items: center;
-    margin-top: 0 50px 0 50px;
+    width: 200px;
+    margin: 0 50px 0 50px;
+    transition: opacity 0.15s;
 }
 
-ul {
-    list-style: none;
+.logo:hover {
+    opacity: 80%;
+}
+
+nav ul {
+    text-align: center;
     display: flex;
     gap: 50px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .menu {
     color: black;
+    transition: opacity 0.15s;
+}
+
+.menu:hover {
+    opacity: 80%;
 }
 
 .free-counseling {
-    background-color: orange;
+    align-items: center;
+    background-color: #f77e14;
     color: #ffffff;
     border-radius: 999px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    transition: opacity 0.15s;
+}
+
+.free-counseling:hover {
+    opacity: 80%;
 }
 
 .fv {
@@ -35,28 +56,44 @@ ul {
 .fv-overray {
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 40%;
+    width: 200px;
 }
 
 .fv-text {
     position: absolute;
     bottom: 15%;
     left: 15%;
-
 }
 
 .sales-pitch {
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .fv-free-counseling {
-    background-color: orange;
+    display: inline-block;
+    align-items: center;
+    background-color: #f77e14;
     color: #ffffff;
     border-radius: 999px;
+    padding: 20px 150px 20px 150px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.fv-free-counseling:hover {
+    opacity: 80%;
+}
+
+.fv-supplement {
+    font-size: 12px;
 }
 
 .main-image {
+    display: block;
     width: 100%;
+    height: auto;
 }
 
