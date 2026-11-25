@@ -92,7 +92,7 @@ nav ul li a {
 .triangle-bottomright {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 80px;
     width: auto;
     height: auto;
 }
