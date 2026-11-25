@@ -115,17 +115,37 @@ nav ul li a {
     display: none;
 }
 
-.fv-overray {
-    position: absolute;
-    top: 100px;
-    right: 590px;
-    width: 200px;
+@media (max-width: 768px) {
+    .fv {
+        display: block;
+        height: auto;
+    }
+
+    .triangle-topleft, 
+    .triangle-bottomright, 
+    .man, 
+    .ellipse {
+        display: none;
+    }
+
+    .whole-main-image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }
 
-.fv-text {
+.fv-contents {
     position: absolute;
     top: 170px;
     left: 200px;
+}
+
+.fv-overray {
+    position: absolute;
+    top: -50px;
+    left: 440px;
+    width: 200px;
 }
 
 .sales-pitch {
@@ -154,13 +174,27 @@ nav ul li a {
     opacity: 80%;
 }
 
-.fv-supplement {
-    font-size: 12px;
+@media (max-width: 768px) {
+    .fv-contents {
+        position: relative;
+        top: auto;
+        bottom: 50px;
+        left: 30px;
+    }
+
+    .fv-overray {
+        position: absolute;
+        top: -10px;
+        left: 260px;
+        width: 100px;
+    }
+
+    .sales-pitch {
+        font-size: 25px;
+    }
 }
 
-.main-image {
-    display: block;
-    width: 100%;
-    height: auto;
+.fv-supplement {
+    font-size: 12px;
 }
 
